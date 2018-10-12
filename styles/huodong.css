@@ -59,8 +59,44 @@ section{
 	background-image: url(../images/middle-cover.jpg);
 }
 .gezhong .dongtu img{
-	height: 300px;
+	height: 250px;
+	width: 350px;
+	border-radius: 10px;
+}
+.gezhong{
+	width: 1400px;
+	height: 1000px;
+	overflow: hidden;
+	position: relative;
+	left: 200px;
+	top: 50px;
+}
+.gezhong .jieshao h2{
+	position: relative;
+	left: 450px;
+	font-size: 35px;
+	color: darkgray;
+	
+}
+.gezhong .jieshao p{
+	position: relative;
+	left: 400px;
+	color: darkgray;
+}
+.gezhong .dongtu{
+	top: 100px;
+	float: left;
+	height: 400px;
 	width: 400px;
+	
+}
+.gezhong .dongtu img{
+	box-shadow: 10px 10px 10px 0;
+}
+.gezhong .dongtu img:hover{
+	height: 300px;
+	width:400px;
+	transition: all 0.5s ease-in-out;
 }
 @media only screen and (max-width: 1600px) {}
 

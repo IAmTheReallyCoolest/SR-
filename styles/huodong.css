@@ -7,7 +7,17 @@
     background-position: center;
     position: relative;
 }
-
+.topName{
+	height: 150px;
+	
+}
+.topName .nav1{
+	position: absolute;
+	top: 40px;
+	left: 600px;
+	
+	color: darkgray;
+}
 .container1 {
     width: 400px;
     height: 600px;
@@ -23,6 +33,7 @@
     height: 100%;
     position: relative;
 }
+
 
 .swiper-slide {
     text-align: center;
@@ -44,7 +55,13 @@
     align-items: center;
 
 }
-
+section{
+	background-image: url(../images/middle-cover.jpg);
+}
+.gezhong .dongtu img{
+	height: 300px;
+	width: 400px;
+}
 @media only screen and (max-width: 1600px) {}
 
 @media only screen and (max-width:1440px) {}

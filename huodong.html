@@ -118,22 +118,22 @@
 					<p>巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴阿拉阿巴拉巴拉</p>
 				</div>
 				<div class="dongtu">
-					<img src="images/LOLmatch1.jpg">
+					<img class="pic" src="images/LOLmatch1.jpg">
 				</div>
 				<div class="dongtu">
-					<img src="images/shaokao1.jpg">
+					<img class="pic" src="images/shaokao1.jpg">
 				</div>
 				<div class="dongtu">
-					<img src="images/zhuoyou1.jpg">
+					<img class="pic" src="images/zhuoyou1.jpg">
 				</div>
 				<div class="dongtu">
-					<img src="images/LOLmatch2.jpg">
+					<img class="pic" src="images/LOLmatch2.jpg">
 				</div>
 				<div class="dongtu">
-					<img src="images/shaokao2.jpg">
+					<img class="pic" src="images/shaokao2.jpg">
 				</div>
 				<div class="dongtu">
-					<img src="images/zhuoyou2.jpg">
+					<img class="pic" src="images/zhuoyou2.jpg">
 				</div>
 				
 			</div>
@@ -188,6 +188,29 @@
 				clickable: true,
 			},
 		});
+		$(function(){
+			var  num1;
+			var $pic=$(".gezhong .dongtu .pic");
+			var $img=$(".gezhong .dongtu");
+			$img.mouseenter(function(){
+				num1=$(this).index();
+				$pic.eq(num1).stop().animate({
+					 width:370,
+					height:270,
+					left:-10,
+					top:-10
+				},200)
+			})
+			$img.mouseleave(function(){
+				num1=$(this).index();
+				$pic.eq(num1).stop().animate({
+					 width:350,
+					height:250,
+					left:0,
+					top:0
+				})
+			})
+		})
 
 	</script>
 </body>

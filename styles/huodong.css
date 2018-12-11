@@ -1,11 +1,32 @@
 #bg1 {
-    background-image: url(../images/2017animeNight.jpg);
-    width: 100%;
+    background-image: url(../images/2018animeNight.jpeg);
+    width: 70%;
     height: 600px;
+	left: 30%;
+	top: 30px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+.container1{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	left: 10%;
+	z-index: 9;
+	top: 110px;
+	background-image: url(../images/SRlogo.jpg);
+}
+.container1 h1{
+	text-align: center;
+}
+.container1 .shuoming{
+	width: 300px;
+	position: absolute;
+	height: 300px;
+	left: 50px;
 }
 .topName{
 	height: 150px;
@@ -18,13 +39,7 @@
 	
 	color: darkgray;
 }
-.container1 {
-    width: 400px;
-    height: 600px;
-    background-color: rgba(122, 122, 124, 0.5);
-    position: absolute;
-    right: 200px;
-}
+
 .nav1{
     text-align: center;
 }

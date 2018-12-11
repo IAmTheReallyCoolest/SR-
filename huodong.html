@@ -85,8 +85,8 @@
 		<section>
 		<div class="container1">
 			<h1>动漫之夜</h1>
-			<div id="shuoming">
-				
+			<div class="shuoming">
+				拉拉拉拉拉啊啦啦啦啦啦啦啦啦啦啦啦啦啦啦啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
 			</div>				
 			</div>
 
@@ -113,28 +113,7 @@
 				<div class="swiper-pagination"></div>
 			</div>
 			<!--各种活动-->
-			<div class="gezhong">
-				
-				<div class="dongtu">
-					<img class="pic" src="images/LOLmatch1.jpg">
-				</div>
-				<div class="dongtu">
-					<img class="pic" src="images/shaokao1.jpg">
-				</div>
-				<div class="dongtu">
-					<img class="pic" src="images/zhuoyou1.jpg">
-				</div>
-				<div class="dongtu">
-					<img class="pic" src="images/LOLmatch2.jpg">
-				</div>
-				<div class="dongtu">
-					<img class="pic" src="images/shaokao2.jpg">
-				</div>
-				<div class="dongtu">
-					<img class="pic" src="images/zhuoyou2.jpg">
-				</div>
-				
-			</div>
+			
 		</section>
 
 
@@ -186,29 +165,7 @@
 				clickable: true,
 			},
 		});
-		$(function(){
-			var  num1;
-			var $pic=$(".gezhong .dongtu .pic");
-			var $img=$(".gezhong .dongtu");
-			$img.mouseenter(function(){
-				num1=$(this).index();
-				$pic.eq(num1).stop().animate({
-					 width:370,
-					height:270,
-					left:-10,
-					top:-10
-				},200)
-			})
-			$img.mouseleave(function(){
-				num1=$(this).index();
-				$pic.eq(num1).stop().animate({
-					 width:350,
-					height:250,
-					left:0,
-					top:0
-				})
-			})
-		})
+	
 
 	</script>
 </body>

@@ -207,8 +207,52 @@
 				clickable: true,
 			},
 		});
-	
-
+		$(function(){
+			var num
+			var $lis=$(".gezhong ul li")
+			var $img=$(".gezhong ul li img")
+			$lis.mouseenter(function(){
+				num=$(this).index()
+				
+				$img.eq(num).stop().animate({
+					width:270,
+					height:220,
+					top:-10,
+					left:-10
+				},200)
+			})
+			$lis.mouseleave(function(){
+				num=$(this).index()
+				$img.eq(num).stop().animate({
+					width:250,
+					height:200,
+					top:0,
+					left:0
+				},200)
+			})
+			var $qita=$(".gezhong .qita")
+			var $img1=$(".gezhong .qita img")
+			$qita.mouseenter(function(){
+				num=$(this).index()
+				
+				$img1.eq(num).stop().animate({
+					width:640,
+					height:430,
+					top:-20,
+					left:-15
+				},200)
+			})
+			$qita.mouseleave(function(){
+				num=$(this).index()
+				$img1.eq(num).stop().animate({
+					width:600,
+					height:400,
+					top:0,
+					left:0
+				},200)
+			})
+		})
+		
 	</script>
 </body>
 

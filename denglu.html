@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>登陆页面</title>
+		<style>
+			*{/*去所有元素的内外边框*/
+				padding: 0;
+				margin: 0;
+			}
+			body{
+				background-image: url(../SR-/images/2018animeNight.jpeg);/*背景图片*/
+			}
+			#table{/*这是整个的大div*/
+				font-size: 17px;/*字体大小*/
+				font-family: fantasy;/*字体样式*/
+				color:darkorange;/*字体颜色*/
+				font-weight: bold;/*给字体加粗*/
+				width: 250px;/*大div 的宽*/
+				height: 400px;/*大div的高*/
+				text-align: right;/*享有对齐*/
+				position: relative;/*给他一个相对的位置属性是相对于自己初始位置的相对属性*/
+				top: 300px;/*相对于自己初始顶部距离300px*/
+				left: 620px;/*相对自己初始位置左部620px*/
+			}
+			.meige{
+				margin-bottom: 10px;
+			}
+			.biaoge{
+				float: left;/*向左浮动	*/
+			}
+			.two{
+				position: relative;
+				left: -100px;/*让按钮相对于自己初始位置向左-100px让他居中*/
+			}
+		</style>
+	</head>
+	<body>
+		<div id="table">
+			
+				<div class="meige">
+				<div class="biaoge">用户名：</div>
+				<input type="text" class="baikuang" placeholder="用户名3-20字符">
+				</div>
+				
+				
+				<div class="meige">
+				<div class="biaoge">密码：</div>
+				<input type="password" class="baikuang" placeholder="密码不能少于6-20个字符">
+				</div>
+				
+				
+				<div class="meige">
+				<div class="biaoge">确认密码：</div>
+				<input type="password" class="baikuang" placeholder="请确认你的密码">
+				</div>
+				
+				
+				<div class="meige">
+				<div class="biaoge">邮箱：</div>
+				<input type="email" class="baikuang" placeholder="请输入你的邮箱">
+				</div>
+				
+				
+				<div>
+				<input type="submit" value="提交" class="two">
+                <input type="reset" value="重置" class="two">
+				</div>
+			
+		</div>
+	</body>
+</html>

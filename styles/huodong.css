@@ -30,19 +30,14 @@
 }
 .topName{
 	height: 150px;
-	
+	text-align: center;
 }
-.topName .nav1{
-	position: absolute;
-	top: 40px;
-	left: 600px;
-	
-	color: darkgray;
+.topName span{
+	font-size: 45px;
+	position: relative;
+	top: 25px;
 }
 
-.nav1{
-    text-align: center;
-}
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -151,6 +146,10 @@ section{
 .gezhong ul li .pic2 span{
 	margin-left: 30%;
 
+}
+#shangwenzi{
+	font-size: 40px;
+	text-align: center;
 }
 
 

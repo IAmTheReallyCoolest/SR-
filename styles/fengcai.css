@@ -1,3 +1,6 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 .top1{
 	height: 350px;
 	width: 100%;
@@ -40,7 +43,7 @@
 .introduce .dongtu{
 	width: 45%;
 	height: 500px;
-
+	overflow: hidden;
 }
 .introduce	.dongtu img{
 	height: 500px;
@@ -85,7 +88,13 @@
 	left: 5%;
 	top: 50px;
 }
-
+.introduce .zhaiwu2 hr{
+	background: #d43031;
+    height: 1px;
+    width: 10%;
+	position: relative;
+	left: 1%;
+}
 
 
 

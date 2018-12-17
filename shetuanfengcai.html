@@ -261,5 +261,57 @@
 	<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
 	<script src="plugins/easing/easing.js"></script>
 	<script src="js/about_custom.js"></script>
+	<script>
+		$(function(){
+			var num
+			var $lis=$(".super_container .introduce img")
+			$lis.mouseenter(function(){
+				num=$(this).index()
+				//alert(num)
+				$lis.stop().animate({
+					width:710,
+					height:525,
+					top:-15,
+					left:-15
+					
+				},200)
+			})
+			
+		})
+	
+	</script>
 	
 </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

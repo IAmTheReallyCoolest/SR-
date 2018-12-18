@@ -38,7 +38,7 @@
 					<li><a href="huodong.html">社团活动</a></li>
 					<li  class="active"><a href="shetuanfengcai.html">社团风采</a></li>
 					<li><a href="members.html">社团成员</a></li>
-					<li><a href="contact.html">加入我们</a></li>
+					<li><a href="javascript:void(0);" id="tiaozhuan">加入我们</a></li>
 				</ul>
 
 
@@ -264,7 +264,15 @@
 	<script src="plugins/easing/easing.js"></script>
 	<script src="js/about_custom.js"></script>
 	<script src="js/fengcai.js"></script>
+	<script>
+		$("#tiaozhuan").click(function(){
+			$("html,body").animate({
+				scrollTop:$(document).height()
+			},1000);
+			return false;
+		})
 	
+	</script>
 </body>
 </html>
 

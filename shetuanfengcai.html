@@ -89,35 +89,37 @@
 		</div>
 		</div>
 	<div class="you1">
-			<h2>技术部</h2>
+			<h2>技术组</h2>
 			<p>都是人才</p>
 		</div>
 		<div class="you1">
-			<h2>宅舞部</h2>
+			<h2>宅舞组</h2>
 			<p>都是人才</p>
 		</div>
 		<div class="you2">
-			<h2>管理组</h2>
+			<h2>后勤组</h2>
 			<p>都是人才</p>
 		</div>
 		<div class="you2">
-			<h2>道具组</h2>
+			<h2>wota组</h2>
 			<p>都是人才</p>
 		</div>
 		<div class="you3">
-			<h2>咕咕组</h2>
+			<h2>外联组</h2>
 			<p>都是人才</p>
 		</div>
 		<div class="you3">
-			<h2>划水组</h2>
+			<h2>唱见组</h2>
 			<p>都是人才</p>
 		</div>	
 		
 	</div>	
 		
-	<div class="introduce">
+	<div class="introduce intro1">
 		<div class="dongtu">
-			<a href=""><img src="images/Halloween3.jpg"></a>
+			<a href=""><img src="images/Halloween3.jpg">
+				<i class="bofang"></i>
+			</a>
 		</div>
 		<div class="zhaiwu">
 			<h2>宅舞组</h2>
@@ -131,7 +133,7 @@
 		
 	</div>
 	<div class="jiange" ></div>
-	<div class="introduce">
+	<div class="introduce intro2">
 		<div class="dongtu2">
 			<a href=""><img src="images/SRbackgroundpicture7.jpeg"></a>
 		</div>
@@ -151,7 +153,7 @@
 			<a href=""><img src="images/Halloween3.jpg"></a>
 		</div>
 		<div class="zhaiwu">
-			<h2>宅舞组</h2>
+			<h2>后勤组</h2>
 			<hr>
 			<div class="inzhai">
 				<p>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
@@ -167,7 +169,7 @@
 			<a href=""><img src="images/SRbackgroundpicture7.jpeg"></a>
 		</div>
 		<div class="zhaiwu2">
-			<h2>技术组</h2>
+			<h2>wota组</h2>
 			<hr>
 			<div class="inzhai">
 				<p>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
@@ -182,7 +184,7 @@
 			<a href=""><img src="images/Halloween3.jpg"></a>
 		</div>
 		<div class="zhaiwu">
-			<h2>宅舞组</h2>
+			<h2>外联组</h2>
 			<hr>
 			<div class="inzhai">
 				<p>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
@@ -198,7 +200,7 @@
 			<a href=""><img src="images/SRbackgroundpicture7.jpeg"></a>
 		</div>
 		<div class="zhaiwu2">
-			<h2>技术组</h2>
+			<h2>唱见组</h2>
 			<hr>
 			<div class="inzhai">
 				<p>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
@@ -261,25 +263,7 @@
 	<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
 	<script src="plugins/easing/easing.js"></script>
 	<script src="js/about_custom.js"></script>
-	<script>
-		$(function(){
-			var num
-			var $lis=$(".super_container .introduce img")
-			$lis.mouseenter(function(){
-				num=$(this).index()
-				//alert(num)
-				$lis.stop().animate({
-					width:710,
-					height:525,
-					top:-15,
-					left:-15
-					
-				},200)
-			})
-			
-		})
-	
-	</script>
+	<script src="js/fengcai.js"></script>
 	
 </body>
 </html>

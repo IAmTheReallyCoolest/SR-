@@ -95,7 +95,17 @@ body{
 	position: relative;
 	left: 1%;
 }
+.bofang{
+	width: 70px;
+	height: 70px;
+	background: url(../images/font3.png) no-repeat;
+	position: absolute;
 
+	top: 200px;
+	left: 45%;
+	opacity: 0.8;
+	display: none;
+}
 
 
 

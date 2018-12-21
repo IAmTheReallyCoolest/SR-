@@ -9,6 +9,49 @@
 		<div id="container">
 			<h3>基于html5的贪吃蛇小游戏</h3>
 			<hr>
+			<!--状态信息栏-->
+			<div id="status">
+				<!--历史最高分-->
+				<div class="box">
+					历史最高分：<span id="bestScore">0</span>
+				</div>
+				<div class="box">
+					当前分数：<span id="currentScore">0</span>
+				</div>
+			</div>
+			<!--设计游戏画布-->
+			<canvas id="myCanvas" width="400" height="400" style="border: 1px solid">
+				
+			</canvas>
+			<div>
+				<button>重新开始</button>
+			</div>
+			
 		</div>
+		<script>
+			//=============
+			//游戏参数设置
+			//==========
+			//蛇的身长
+			var t=3;
+			//记录蛇的运行轨迹，用数组记录每一个坐标点
+			var snakeMap=[];
+			//蛇身单元大小
+			var w=10;
+			//方向代码左37 上38 右39 下40
+			var direction=39;
+			//蛇的初始坐标
+			var x=0;
+			var y=0;
+			//画布的宽和高
+			var width=400;
+			var height=400;
+			//根据id找到制定的画布
+			var  c=document.getElementById("myCanvas");
+			//创建2d的context对象
+			var ctx=c.getContext("2d");
+		
+		
+		</script>
 	</body>
 </html>

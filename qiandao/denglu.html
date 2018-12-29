@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>管理员登陆</title>
-		<link type="text/css" rel="stylesheet" href="denglu.css">
+	<meta charset="utf-8">
+	<title>管理员登陆</title>
+	<link type="text/css" rel="stylesheet" href="denglu.css">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src=denglu.js></script>
+	<script type="text/javascript">
+	
+//		function yan() {
+//			var yan = document.getElementById("denglu");
+//			var username = yan.yhm.value;
+//			var password = yan.mm.value;
+//			alert("1")
+//
+//			if (yan.yhm.value == "") {
+//				alert("用户名不能为空");
+//				return false;
+//			}
+//
+//			if (yan.yhm.value.length < 3 || yan.yhm.length > 20) {
+//				alert("用户名格式错误");
+//				return false;
+//			}
+//			if (yan.mm.value.length < 6 || yan.mm.value.length > 20) {
+//				alert("密码格式错误");
+//				return false;
+//			}
+//			window.location = "qiandaoxitong.html";
+//
+//		}
 		
-	</head>
-	<body>
-		<form class="denglu">
-			<div class="one">
+	</script>
+</head>
+
+<body>
+	<form id="denglu" method="post">
+		<div class="one">
 			<div>账号：</div>
-			<input type="text" placeholder="请输入账号">
-			</div>
-			<div class="one">
+			<input type="text" placeholder="请输入账号3-20字符" name="yhm">
+		</div>
+		<div class="one">
 			<div>密码：</div>
-			<input type="password" placeholder="请输入密码">
-			</div>
-			<input type="submit" class="denglu1" value="登陆">
-			<input type="reset" class="chongzhi" value="重置">
-		</form>
-	</body>
+			<input type="password" placeholder="请输入密码" name="mm">
+		</div>
+		<input type="submit" class="denglu1" value="登陆" >
+		<input type="reset" class="chongzhi" value="重置">
+	</form>
+</body>
+
+<script>
+
+</script>
 </html>

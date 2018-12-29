@@ -6,11 +6,11 @@ body{
 	background-color: #eee;
 	overflow: hidden;
 }
-.denglu{
+#denglu{
 	position: relative;
 	left: 45%;
 	top: 250px;
 }
-.denglu .one div{
+#denglu .one div{
 	float:left;
 }

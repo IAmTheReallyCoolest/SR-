@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #eee;
+}
+.top-wenzi1{
+	font-size: 24px;
+	padding: 50px 0 0 30px;
+}
+#container{
+	width:100%;
+	height: 600px;
+
+}
+.left{
+	width: 50%;
+	height: 600px;
+	background-color: darkgrey;
+	float: left;
+	position: relative;
+}
+.right{
+	width: 50%;
+	height: 600px;
+	background-color:dimgray;
+	float: right;
+	position: relative;
+}
+#footer{
+	height: 100px;
+	width: 100%;
+	background-color: #eee;
+	
+}
+.left .mid-wenzi1{
+	font-size: 20px;
+	position:relative;
+	left: 20px;
+	top: 20px;
+}
+.stu1{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	top: 23px;
+	
+}
+.stu1 .name{
+	position: absolute;
+	font-size: 20px;
+	left: 3%;
+}
+.stu1 .time{
+	position: absolute;
+	left: 20%;
+	font-size: 20px;
+}
+.right .mid-wenzi2{
+	font-size: 20px;
+	position:relative;
+	left: 20px;
+	top: 20px;
+}
+.stu2{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	top: 23px;
+}
+.stu2 .name{
+	position: absolute;
+	font-size: 20px;
+	left: 3%;
+}
+.stu2 .cishu{
+	position: absolute;
+	font-size: 20px;
+	left: 15%;
+}
+.stu2 .time{
+	position: absolute;
+	font-size: 20px;
+	left: 40%;
+}
+
+#footer .foo-wenzi1{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
